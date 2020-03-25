@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+span,
+a {
+  font-family: 'Raleway', sans-serif;
+}
+
+.iit-courses .head-txt, .neet-courses .head-txt, .cbse-courses .head-txt {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+  .iit-courses .head-txt, .neet-courses .head-txt, .cbse-courses .head-txt {
+    margin: 0px;
+  }
+}
+
+.iit-courses .head-txt h3, .neet-courses .head-txt h3, .cbse-courses .head-txt h3 {
+  font-size: 24px;
+  color: #333333;
+}
+
+@media (max-width: 576px) {
+  .iit-courses .head-txt h3, .neet-courses .head-txt h3, .cbse-courses .head-txt h3 {
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+  }
+}
+
+@media (max-width: 576px) {
+  .iit-courses .nav-pills li, .neet-courses .nav-pills li, .cbse-courses .nav-pills li {
+    margin-top: 5px;
+  }
+}
+
+.iit-courses .nav-pills li .disabled, .neet-courses .nav-pills li .disabled, .cbse-courses .nav-pills li .disabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.3;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.iit-courses .nav-pills li a, .neet-courses .nav-pills li a, .cbse-courses .nav-pills li a {
+  border-radius: 4px;
+  padding: 4px 40px;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #eee;
+  color: #333333;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 576px) {
+  .iit-courses .nav-pills li a, .neet-courses .nav-pills li a, .cbse-courses .nav-pills li a {
+    padding: 3px 15px;
+    font-size: 16px !important;
+  }
+}
+
+.iit-courses .nav-pills li:not(:first-child), .neet-courses .nav-pills li:not(:first-child), .cbse-courses .nav-pills li:not(:first-child) {
+  margin-left: 10px;
+}
+
+.iit-courses .tab-content a, .neet-courses .tab-content a, .cbse-courses .tab-content a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.iit-courses .tab-content .card, .neet-courses .tab-content .card, .cbse-courses .tab-content .card {
+  margin: 20px 6px 6px;
+  -webkit-box-shadow: 1px 1px 8px 0 rgba(160, 160, 160, 0.2);
+          box-shadow: 1px 1px 8px 0 rgba(160, 160, 160, 0.2);
+  border-radius: 6px;
+}
+
+@media (max-width: 576px) {
+  .iit-courses .tab-content .card, .neet-courses .tab-content .card, .cbse-courses .tab-content .card {
+    margin-top: 10px;
+  }
+}
+
+.iit-courses .tab-content .card img, .neet-courses .tab-content .card img, .cbse-courses .tab-content .card img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.iit-courses .tab-content .card .card-body, .neet-courses .tab-content .card .card-body, .cbse-courses .tab-content .card .card-body {
+  padding: 8px 8px 8px 10px;
+  border-radius: 5px;
+}
+
+@media (max-width: 576px) {
+  .iit-courses .tab-content .card .card-body, .neet-courses .tab-content .card .card-body, .cbse-courses .tab-content .card .card-body {
+    padding: 8px 8px 8px 10px;
+  }
+}
+
+.iit-courses .tab-content .card .card-body .card-title, .neet-courses .tab-content .card .card-body .card-title, .cbse-courses .tab-content .card .card-body .card-title {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-top: 1px;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 576px) {
+  .iit-courses .tab-content .card .card-body .card-title, .neet-courses .tab-content .card .card-body .card-title, .cbse-courses .tab-content .card .card-body .card-title {
+    font-size: 12px;
+    color: #0e0e0e;
+  }
+}
+
+.iit-courses .tab-content .card .card-body .card-text, .neet-courses .tab-content .card .card-body .card-text, .cbse-courses .tab-content .card .card-body .card-text {
+  counter-reset: #333333;
+  margin-bottom: 3px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 576px) {
+  .iit-courses .tab-content .card .card-body .card-text, .neet-courses .tab-content .card .card-body .card-text, .cbse-courses .tab-content .card .card-body .card-text {
+    font-size: 10px;
+  }
+}
+
+.iit-courses .tab-content .card .card-body .tutor, .neet-courses .tab-content .card .card-body .tutor, .cbse-courses .tab-content .card .card-body .tutor {
+  text-decoration: none;
+  color: #333;
+  background-color: #f2f2f3;
+  letter-spacing: 0.5px;
+  padding: 3px 10px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+@media (max-width: 576px) {
+  .iit-courses .tab-content .card .card-body .tutor, .neet-courses .tab-content .card .card-body .tutor, .cbse-courses .tab-content .card .card-body .tutor {
+    font-size: 10px;
+  }
+}
+
+.iit-courses .tab-content .card .card-body .live-btn, .neet-courses .tab-content .card .card-body .live-btn, .cbse-courses .tab-content .card .card-body .live-btn {
+  text-decoration: none;
+  color: #ff0000;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 576px) {
+  .iit-courses .tab-content .card .card-body .live-btn, .neet-courses .tab-content .card .card-body .live-btn, .cbse-courses .tab-content .card .card-body .live-btn {
+    font-size: 11px;
+  }
+}
+
+/*------------ IIT Courses --------*/
+.iit-courses {
+  padding: 20px 0;
+}
+
+@media (max-width: 576px) {
+  .iit-courses {
+    padding: 0;
+  }
+}
+
+.iit-courses .nav-pills > li.active > a,
+.iit-courses .nav-pills > li.active > a:focus,
+.iit-courses .nav-pills > li.active > a:hover {
+  color: #fff;
+  background-image: linear-gradient(45deg, #fe5206, #fc8c21);
+  font-size: 18px;
+}
+
+.neet-courses {
+  padding: 20px 0;
+}
+
+@media (max-width: 576px) {
+  .neet-courses {
+    padding: 0;
+  }
+}
+
+.neet-courses .nav-pills > li.active > a,
+.neet-courses .nav-pills > li.active > a:focus,
+.neet-courses .nav-pills > li.active > a:hover {
+  color: #fff;
+  background-image: linear-gradient(45deg, #0475ff, #219cfc);
+  font-size: 18px;
+}
+
+.cbse-courses {
+  padding: 20px 0;
+}
+
+@media (max-width: 576px) {
+  .cbse-courses {
+    padding: 0;
+  }
+}
+
+.cbse-courses .nav-pills > li.active > a,
+.cbse-courses .nav-pills > li.active > a:focus,
+.cbse-courses .nav-pills > li.active > a:hover {
+  color: #fff;
+  background-image: linear-gradient(45deg, #158a11, #76a822);
+  font-size: 18px;
+}
+/*# sourceMappingURL=style.css.map */
