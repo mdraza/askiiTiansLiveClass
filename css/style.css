@@ -67,7 +67,7 @@ a {
 @media (max-width: 576px) {
   .iit-courses .nav-pills li a, .neet-courses .nav-pills li a, .cbse-courses .nav-pills li a {
     padding: 2px 13px;
-    font-size: 15px !important;
+    font-size: 14px !important;
   }
 }
 
