@@ -66,8 +66,8 @@ a {
 
 @media (max-width: 576px) {
   .iit-courses .nav-pills li a, .neet-courses .nav-pills li a, .cbse-courses .nav-pills li a {
-    padding: 3px 15px;
-    font-size: 16px !important;
+    padding: 2px 13px;
+    font-size: 15px !important;
   }
 }
 
@@ -81,7 +81,7 @@ a {
 }
 
 .iit-courses .tab-content .card, .neet-courses .tab-content .card, .cbse-courses .tab-content .card {
-  margin: 20px 6px 6px;
+  margin: 20px 6px 6px 0;
   -webkit-box-shadow: 1px 1px 8px 0 rgba(160, 160, 160, 0.2);
           box-shadow: 1px 1px 8px 0 rgba(160, 160, 160, 0.2);
   border-radius: 6px;
